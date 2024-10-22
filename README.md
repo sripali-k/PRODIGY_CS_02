@@ -35,7 +35,7 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/prodigy_cs_02.git
+   git clone https://github.com/sripali-k/prodigy_cs_02.git
 2. Navigate to the project directory:
     ```bash
    cd prodigy_cs_02
@@ -66,6 +66,6 @@ Ensure you have the following installed:
 4. **General Formatting**: Ensured proper indentation and spacing for improved readability.
 
 ## Final Notes
-- **URL Placeholder**: Make sure to replace `https://github.com/yourusername/prodigy_cs_02.git` with the actual URL of your GitHub repository.
+- **URL Placeholder**: Make sure to replace `https://github.com/sripali-k/prodigy_cs_02.git` with the actual URL of your GitHub repository.
 - **Review Technologies**: Double-check that the listed technologies (like NumPy) are relevant to your project; if not used, you might want to omit them.
 
