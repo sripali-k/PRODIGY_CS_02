@@ -5,6 +5,8 @@ __pycache__/
 # Ignore image files you don't want to track
 *.jpg
 *.png
+!input-image/input-image.jpg
+!output-image/encrypted-image.png
 
 # Ignore IntelliJ specific files
 .idea/

@@ -1,6 +1,7 @@
 from PIL import Image
 import numpy as np
 
+
 def load_image(image_path):
     """Load an image from the specified path."""
     try:
@@ -9,9 +10,11 @@ def load_image(image_path):
         print(f"Error loading image: {e}")
         return None
 
+
 def image_to_array(image):
     """Convert a PIL Image to a NumPy array."""
     return np.array(image)
+
 
 def encrypt_image(image_array):
     """Encrypt the image by inverting pixel values."""
@@ -19,10 +22,12 @@ def encrypt_image(image_array):
     encrypted_array = 255 - image_array
     return encrypted_array
 
+
 def save_image(image_array, output_path):
     """Save the NumPy array as an image."""
     encrypted_image = Image.fromarray(image_array)
     encrypted_image.save(output_path)
+
 
 def main():
     input_image_path = 'input-image/input-image.jpg'  # Change this to your image path
@@ -38,6 +43,7 @@ def main():
     save_image(encrypted_array, output_image_path)
 
     print("Image encrypted successfully!")
+
 
 if __name__ == "__main__":
     main()
