@@ -25,8 +25,8 @@ def save_image(image_array, output_path):
     encrypted_image.save(output_path)
 
 def main():
-    input_image_path = 'image-encryption/input-image.jpg'  # Change this to your image path
-    output_image_path = 'encrypted_image.png'
+    input_image_path = 'input-image/input-image.jpg'  # Change this to your image path
+    output_image_path = 'output-image/encrypted_image.png'
 
     image = load_image(input_image_path)
 
