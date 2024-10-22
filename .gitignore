@@ -6,7 +6,7 @@ __pycache__/
 *.jpg
 *.png
 !input-image/input-image.jpg
-!output-image/encrypted-image.png
+!output-image/encrypted_image.png
 
 # Ignore IntelliJ specific files
 .idea/
